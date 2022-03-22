@@ -4,6 +4,8 @@
     "organization": "Greystate",
     "description": "Enables launching the GitHub Desktop app from within Nova",
     "version": "1.0",
+    "bugs": "https://github.com/greystate/github-desktop-novaextension/issues",
+    "repository": "https://github.com/greystate/github-desktop-novaextension",
     "categories": ["commands"],
 
     "main": "main.js",
