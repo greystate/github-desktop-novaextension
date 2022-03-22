@@ -1,0 +1,31 @@
+{
+    "identifier": "dk.greystate.GitHubDesktop",
+    "name": "GitHub Desktop Unofficial Launcher",
+    "organization": "Greystate",
+    "description": "Enables launching the GitHub Desktop app from within Nova",
+    "version": "1.0",
+    "categories": ["commands"],
+
+    "main": "main.js",
+
+    "activationEvents": [
+        "*"
+    ],
+
+    "entitlements": {
+        "process": true
+    },
+
+    "commands": {
+        "extensions": [
+            {
+                "title": "Launch GitHub Desktop",
+                "command": "github-desktop.launchApp",
+                "shortcut": "ctrl-opt-cmd-g"
+            }
+        ]
+    },
+
+    "config": [
+    ]
+}
